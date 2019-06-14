@@ -5,13 +5,11 @@ logServer:
 lpr:
   authToken: I7HOXHh4eHisktSVavKmTM9LMw==
   licensePath: AlarmInfoPlate.result.PlateResult.license
+  loginUrl: http://192.168.0.245/login.php
   mock: 'false'
   picPath: AlarmInfoPlate.result.PlateResult.imageFile
+  triggerURL: http://192.168.0.245/avstrigger.php
   waitTime: '100'
-  endpoints:
-    -
-      loginUrl: http://192.168.0.245/login.php
-      triggerURL: http://192.168.0.245/avstrigger.php
 report:
   delay: '200'
   loginUrl: https://wxapp.xhl365.cn/jingou/secUserManager/login
