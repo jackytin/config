@@ -1,5 +1,5 @@
 logServer:
-  enabled: 'true'
+  enabled: 'false'
   ip: 224.0.0.7
   port: '6789'
 lpr:
