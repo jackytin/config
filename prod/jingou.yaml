@@ -1,6 +1,6 @@
 logServer:
   enabled: 'true'
-  ip: 224.0.0.7
+  ip: '224.0.0.7'
   port: '6789'
 lpr:
   authToken: I7HOXHh4eHisktSVavKmTM9LMw==
@@ -14,11 +14,11 @@ lpr:
       triggerURL: http://192.168.0.245/avstrigger.php
 report:
   delay: '200'
-  loginUrl: https://wxapp.xhl365.cn/jingou/secUserManager/login
+  loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
   mock: 'false'
-  reportUrl: https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/
+  reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
 scale:
   baudRate: '9600'
   minWeight: '500'
-  mock: 'false'
-  port: /dev/ttyS1
+  mock: 'true'
+  port: '/dev/ttyS1'
