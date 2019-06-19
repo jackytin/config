@@ -7,7 +7,7 @@ lpr:
   licensePath: AlarmInfoPlate.result.PlateResult.license
   mock: 'false'
   picPath: AlarmInfoPlate.result.PlateResult.imageFile
-  waitTime: '100'
+  waitTime: '3000'
   idPath: 'AlarmInfoPlate.serialno'
   endpoints:
     -
@@ -15,9 +15,9 @@ lpr:
       triggerURL: http://192.168.0.245/avstrigger.php
 report:
   delay: '200'
-  loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
-  mock: 'true'
-  reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
+  loginUrl: 'http://localhost:8080/jingou/secUserManager/login'
+  mock: 'false'
+  reportUrl: 'http://localhost:8080/jingou/smartScaleManager/pushMixData/'
 scale:
   baudRate: '9600'
   minWeight: '500'

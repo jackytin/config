@@ -8,6 +8,7 @@ lpr:
   mock: 'false'
   picPath: AlarmInfoPlate.result.PlateResult.imageFile
   waitTime: '100'
+  idPath: 'AlarmInfoPlate.serialno'
   endpoints:
     -
       loginUrl: http://192.168.0.245/login.php
