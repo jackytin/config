@@ -23,4 +23,6 @@ scale:
   baudRate: '9600'
   minWeight: '500'
   mock: 'false'
+log: 
+  opened: 'true'
   
