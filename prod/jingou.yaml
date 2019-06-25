@@ -22,7 +22,5 @@ report:
 scale:
   baudRate: '9600'
   minWeight: '500'
-  mock: 'false'
-  port: '/dev/ttyS1'
-log:
-  opened: 'false'
+  mock: 'true'
+  
