@@ -13,7 +13,7 @@ lpr:
       licensePath: AlarmInfoPlate.result.PlateResult.license
       picPath: AlarmInfoPlate.result.PlateResult.imageFile
       idPath: 'AlarmInfoPlate.serialno'
-      name: '前面的摄像头'
+      name: 'front'
 report:
   delay: '200'
   loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
