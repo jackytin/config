@@ -19,9 +19,9 @@ lpr:
       authToken: '{"user":"admin","password":"admin"}'
       triggerURL: http://192.168.0.246/avs_request_message.php
       triggerData: '{"type":"avs_parking_trigger"}'
-      licensePath: AlarmInfoPlate.result.PlateResult.license
-      picPath: AlarmInfoPlate.result.PlateResult.imageFile
-      idPath: 'AlarmInfoPlate.serialno'
+      licensePath: License
+      picPath: ImageData
+      idPath: sn
       name: 'top'
 report:
   delay: '200'
