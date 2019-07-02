@@ -14,6 +14,15 @@ lpr:
       picPath: AlarmInfoPlate.result.PlateResult.imageFile
       idPath: 'AlarmInfoPlate.serialno'
       name: 'front'
+    -
+      loginUrl: http://192.168.0.246/logincheck.php
+      authToken: '{"user":"admin","password":"admin"}'
+      triggerURL: http://192.168.0.246/avs_request_message.php
+      triggerData: '{"type":"avs_parking_trigger"}'
+      licensePath: AlarmInfoPlate.result.PlateResult.license
+      picPath: AlarmInfoPlate.result.PlateResult.imageFile
+      idPath: 'AlarmInfoPlate.serialno'
+      name: 'top'
 report:
   delay: '200'
   loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
