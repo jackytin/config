@@ -23,6 +23,14 @@ lpr:
       picPath: ImageData
       idPath: sn
       name: 'top'
+    -
+      loginUrl: http://192.168.0.247/login.php
+      triggerURL: http://192.168.0.247/avstrigger.php
+      authToken: I7HOXHh4eHisktSVavKmTM9LMw==
+      licensePath: AlarmInfoPlate.result.PlateResult.license
+      picPath: AlarmInfoPlate.result.PlateResult.imageFile
+      idPath: 'AlarmInfoPlate.serialno'
+      name: 'back'
 report:
   delay: '200'
   loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
