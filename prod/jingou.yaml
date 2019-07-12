@@ -3,7 +3,7 @@ logServer:
   ip: '224.0.0.7'
   port: '6789'
 lpr:
-  mock: 'false'
+  mock: 'true'
   waitTime: '1000'
   endpoints:
     -
