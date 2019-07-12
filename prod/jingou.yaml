@@ -4,7 +4,7 @@ logServer:
   port: '6789'
 lpr:
   mock: 'false'
-  waitTime: '3000'
+  waitTime: '1000'
   endpoints:
     -
       loginUrl: http://192.168.0.245/login.php
