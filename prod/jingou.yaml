@@ -38,7 +38,7 @@ report:
   reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
 scale:
   baudRate: '9600'
-  minWeight: '10'
+  minWeight: '100'
   mock: 'false'
   port: '/dev/ttyS1'
 log:
