@@ -25,9 +25,9 @@ lpr:
       name: 'top'
 report:
   delay: '200'
-  loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
+  loginUrl: 'https://wxapp1.xhl365.cn/jingou/secUserManager/login'
   mock: 'true'
-  reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
+  reportUrl: 'https://wxapp1.xhl365.cn/jingou/smartScaleManager/pushMixData/'
 scale:
   baudRate: '9600'
   minWeight: '10'
