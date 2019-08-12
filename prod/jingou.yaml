@@ -7,8 +7,8 @@ lpr:
   waitTime: '1000'
   endpoints:
     -
-      loginUrl: http://192.168.0.212/login.php
-      triggerURL: http://192.168.0.212/avstrigger.php
+      loginUrl: http://192.168.0.211/login.php
+      triggerURL: http://192.168.0.211/avstrigger.php
       authToken: I7HOXHh4eHisktSVavKmTM9LMw==
       licensePath: AlarmInfoPlate.result.PlateResult.license
       picPath: AlarmInfoPlate.result.PlateResult.imageFile
@@ -24,8 +24,8 @@ lpr:
       idPath: sn
       name: 'top'
     -
-      loginUrl: http://192.168.0.211/login.php
-      triggerURL: http://192.168.0.211/avstrigger.php
+      loginUrl: http://192.168.0.212/login.php
+      triggerURL: http://192.168.0.212/avstrigger.php
       authToken: I7HOXHh4eHisktSVavKmTM9LMw==
       licensePath: AlarmInfoPlate.result.PlateResult.license
       picPath: AlarmInfoPlate.result.PlateResult.imageFile
