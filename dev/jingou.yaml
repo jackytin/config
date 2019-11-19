@@ -1,28 +1,37 @@
 logServer:
-  enabled: 'false'
+  enabled: 'true'
   ip: '224.0.0.7'
   port: '6789'
 lpr:
   mock: 'false'
-  waitTime: '3000'
+  waitTime: '1000'
   endpoints:
     -
-      loginUrl: http://192.168.0.245/login.php
-      triggerURL: http://192.168.0.245/avstrigger.php
+      loginUrl: http://192.168.0.212/login.php
+      triggerURL: http://192.168.0.212/avstrigger.php
       authToken: I7HOXHh4eHisktSVavKmTM9LMw==
       licensePath: AlarmInfoPlate.result.PlateResult.license
       picPath: AlarmInfoPlate.result.PlateResult.imageFile
       idPath: 'AlarmInfoPlate.serialno'
-      name: '前面的摄像头'
+      name: 'front'
+    -
+      loginUrl: http://192.168.0.246/logincheck.php
+      authToken: '{"user":"admin","password":"admin"}'
+      triggerURL: http://192.168.0.246/avs_request_message.php
+      triggerData: '{"type":"avs_parking_trigger"}'
+      licensePath: License
+      picPath: ImageData
+      idPath: sn
+      name: 'top'
 report:
   delay: '200'
-  loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
-  mock: 'true'
-  reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
+  loginUrl: 'https://wxapp1.xhl365.cn/jingou/secUserManager/login'
+  mock: 'false'
+  reportUrl: 'https://wxapp1.xhl365.cn/jingou/smartScaleManager/pushMixData/'
 scale:
   baudRate: '9600'
-  minWeight: '500'
-  mock: 'true'
+  minWeight: '10'
+  mock: 'false'
   port: '/dev/ttyS1'
 log:
   opened: 'true'

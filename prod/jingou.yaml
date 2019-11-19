@@ -4,11 +4,11 @@ logServer:
   port: '6789'
 lpr:
   mock: 'false'
-  waitTime: '3000'
+  waitTime: '1000'
   endpoints:
     -
-      loginUrl: http://192.168.0.245/login.php
-      triggerURL: http://192.168.0.245/avstrigger.php
+      loginUrl: http://192.168.0.211/login.php
+      triggerURL: http://192.168.0.211/avstrigger.php
       authToken: I7HOXHh4eHisktSVavKmTM9LMw==
       licensePath: AlarmInfoPlate.result.PlateResult.license
       picPath: AlarmInfoPlate.result.PlateResult.imageFile
@@ -23,6 +23,14 @@ lpr:
       picPath: ImageData
       idPath: sn
       name: 'top'
+    -
+      loginUrl: http://192.168.0.212/login.php
+      triggerURL: http://192.168.0.212/avstrigger.php
+      authToken: I7HOXHh4eHisktSVavKmTM9LMw==
+      licensePath: AlarmInfoPlate.result.PlateResult.license
+      picPath: AlarmInfoPlate.result.PlateResult.imageFile
+      idPath: 'AlarmInfoPlate.serialno'
+      name: 'back'
 report:
   delay: '200'
   loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
@@ -30,7 +38,7 @@ report:
   reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
 scale:
   baudRate: '9600'
-  minWeight: '500'
+  minWeight: '10'
   mock: 'false'
   port: '/dev/ttyS1'
 log:
