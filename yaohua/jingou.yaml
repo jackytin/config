@@ -1,9 +1,9 @@
 logServer:
-  enabled: 'false'
+  enabled: 'true'
   ip: '224.0.0.7'
   port: '6789'
 lpr:
-  mock: 'true'
+  mock: 'false'
   waitTime: '1000'
   endpoints:
     -
@@ -34,7 +34,7 @@ lpr:
 report:
   delay: '200'
   loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
-  mock: 'true'
+  mock: 'false'
   reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
 scale:
   baudRate: '9600'
