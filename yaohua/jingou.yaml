@@ -42,9 +42,8 @@ scale:
   mock: 'false'
   port: '/dev/ttyS1'
   type: 'yaohua'
-  datalen: '12'
-  dataPrefix: 'ww'
-  dataSuffix: 'kg'
-  dataGoodChars: 'wkg-0123456789.'
+  datalen: '8'
+  dataGoodChars: '-0123456789.'
+  reverseData: 'true'
 log:
   opened: 'true'
