@@ -35,3 +35,11 @@ scale:
   port: '/dev/ttyS1'
 log:
   opened: 'true'
+iccard:
+  port: '/dev/ttyUSB0'
+  baudRate: 9600
+  data:
+    prefix: '02'
+    suffix: '03'
+    splitter: '0D0A'
+    len: 10
