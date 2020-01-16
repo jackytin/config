@@ -47,3 +47,6 @@ scale:
   reverseData: 'true'
 log:
   opened: 'true'
+iccard:
+  port: '/dev/ttyUSB0'
+  baudRate: 9600

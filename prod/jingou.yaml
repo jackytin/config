@@ -43,3 +43,6 @@ scale:
   port: '/dev/ttyS1'
 log:
   opened: 'true'
+iccard:
+  port: '/dev/ttyUSB0'
+  baudRate: 9600
