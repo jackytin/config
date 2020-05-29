@@ -31,3 +31,9 @@ jobs:
       run: |
         pwd
         ls -a
+    - shell: bash
+      env:
+        testKey:  ${{secrets.TEST_Key}}
+      run: |
+        echo $testKey
+        sh upload.sh
