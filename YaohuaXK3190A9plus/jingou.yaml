@@ -1,5 +1,5 @@
 logServer:
-  enabled: 'true'
+  enabled: 'false'
   ip: '224.0.0.7'
   port: '6789'
 lpr:
@@ -46,7 +46,7 @@ scale:
   dataGoodChars: '-0123456789.'
   reverseData: 'true'
 log:
-  opened: 'false'
+  opened: 'true'
 iccard:
   port: '/dev/ttyUSB0'
   baudRate: 9600
