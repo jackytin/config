@@ -46,7 +46,7 @@ scale:
   dataGoodChars: '-0123456789.'
   reverseData: 'true'
 log:
-  opened: 'true'
+  opened: 'false'
 iccard:
   port: '/dev/ttyUSB0'
   baudRate: 9600
