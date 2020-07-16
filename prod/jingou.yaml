@@ -1,7 +1,7 @@
 logServer:
   enabled: 'true'
-  ip: '224.0.0.7'
-  port: '6789'
+  ip: '47.93.21.32'
+  port: '54321'
 lpr:
   mock: 'false'
   waitTime: '6000'
