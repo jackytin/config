@@ -1,0 +1,40 @@
+logServer:
+  enabled: 'true'
+  ip: '47.93.21.32'
+  port: '54321'
+lpr:
+  mock: 'false'
+  waitTime: '6000'
+  endpoints:
+    -
+      loginUrl: http://192.168.0.211/login.php
+      triggerURL: http://192.168.0.211/avstrigger.php
+      authToken: I7HOXHh4eHisktSVavKmTM9LMw==
+      licensePath: AlarmInfoPlate.result.PlateResult.license
+      picPath: AlarmInfoPlate.result.PlateResult.imageFile
+      idPath: 'AlarmInfoPlate.serialno'
+      name: 'front'
+    -
+      loginUrl: http://192.168.0.246/logincheck.php
+      authToken: '{"user":"admin","password":"admin"}'
+      triggerURL: http://192.168.0.246/avs_request_message.php
+      triggerData: '{"type":"avs_parking_trigger"}'
+      licensePath: License
+      picPath: ImageData
+      idPath: sn
+      name: 'top'
+report:
+  delay: '200'
+  loginUrl: 'https://wxapp.xhl365.cn/jingou/secUserManager/login'
+  mock: 'false'
+  reportUrl: 'https://wxapp.xhl365.cn/jingou/smartScaleManager/pushMixData/'
+scale:
+  baudRate: '9600'
+  minWeight: '10'
+  mock: 'false'
+  port: '/dev/ttyS1'
+log:
+  opened: 'true'
+iccard:
+  port: '/dev/ttyUSB0'
+  baudRate: 9600
