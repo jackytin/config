@@ -1,6 +1,6 @@
 logServer:
   enabled: 'true'
-  ip: 'iot.doublechaintech.com'
+  ip: 'iotlog.doublechaintech.com'
   port: '54321'
 lpr:
   mock: 'false'
